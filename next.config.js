@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  typescript: {
+    ignoreDevErrors: true,
+  },
   reactStrictMode: true,
   swcMinify: true,
   images: {
